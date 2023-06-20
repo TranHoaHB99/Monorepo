@@ -55,6 +55,12 @@
 /* =============================================
 =           End of Spacing                =
 ============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
 /**
  *
  * This file defines the actual colors that will be used for styling. They will default to the page 
@@ -154,6 +160,12 @@
 /* =============================================
 =           End of Spacing                =
 ============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
 /**
  *
  * This file defines the actual colors that will be used for styling. They will default to the page 
@@ -188,6 +200,26 @@
  * Helpful reusable function-like things that will be used to implements styles for components
  *
  */
+.dse-margin-none {
+  margin: 0;
+}
+
+.dse-margin-left-none {
+  margin-left: 0;
+}
+
+.dse-margin-right-none {
+  margin-right: 0;
+}
+
+.dse-margin-top-none {
+  margin-top: 0;
+}
+
+.dse-margin-bottom-none {
+  margin-bottom: 0;
+}
+
 .dse-margin-xxxs {
   margin: 0.25rem;
 }
@@ -425,6 +457,12 @@
 /* =============================================
 =           End of Spacing                =
 ============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
 /**
  *
  * This file defines the actual colors that will be used for styling. They will default to the page 
@@ -459,6 +497,173 @@
  * Helpful reusable function-like things that will be used to implements styles for components
  *
  */
+.dse-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dse-select p {
+  margin: 0;
+}
+
+.dse-select__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px solid #f1f2f3;
+  background: #fff;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+}
+
+.dse-select__caret {
+  transition: all 250ms ease;
+}
+
+.dse-select__caret--open {
+  transform: rotate(180deg);
+}
+
+.dse-select__caret--closed {
+  transform: rotate(0);
+}
+
+.dse-select__overlay {
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--dse-form-bg, #fff);
+  z-index: 99;
+  box-shadow: 0px 4px 11px rgba(157, 157, 157, 0.21);
+  position: absolute;
+  width: 100%;
+}
+
+.dse-select__option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0.25rem;
+}
+
+.dse-select__option--selected {
+  background: var(--dse-form-bg-option-selected, #5ece7b);
+  color: var(--dse-form-color-option-selected, #fff);
+}
+
+.dse-select__option:hover {
+  background: var(--dse-form-bg-hover, #f1f2f3);
+}
+
+/**
+*TABLE OF CONTENTS
+*COLORS
+*Brand colors...............These are the main brand colors. They will be used the most
+*Neutral colors.............White and black, gray scale, secondary colors
+*Utility colors.............Other colors to represent states: info, warning, success, etc.
+
+*TYPOGRAPHY
+*Font families..............The fonts used in the design system
+*Font weights...............Font weights
+*Sizes......................Font sizing for body text, paragraphs, inputs
+*Heading sizes..............Font sizing for page headings
+
+*BREAKPOINTS
+*Breakpoints................Global responsive breakpoints definitions
+*/
+/*
+=================================================
+=                   Colors                      =
+=================================================
+**/
+/* Brand colors */
+/* Neutral */
+/* Utility colors */
+/*
+=================================================
+=                   End of Colors               =
+=================================================
+**/
+/* =============================================
+=            Typography                       =
+============================================= */
+/*
+* 1) The playfair font. We'll use this for heading mostly
+* 2) The raleway font. We'll use this for the body text
+*/
+/* Font families */
+/* 1 */
+/* 2 */
+/* Font sizes */
+/* Heading font sizes */
+/* Font weights */
+/* =============================================
+=            End of Typography                =
+============================================= */
+/* =============================================
+=            Breakpoints                      =
+============================================= */
+/* =============================================
+=           End of Breakpoints                =
+============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
+/**
+ *
+ * This file defines the actual colors that will be used for styling. They will default to the page 
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this with their own variables
+ */
+/* =============================================
+=           Global text colors                =
+============================================= */
+/* =============================================
+=                   Buttons                   =
+============================================= */
+/* =============================================
+=                   Forms                    =
+============================================= */
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come from the palette in the _variable.scss file. 
+ */
+/* =============================================
+=           Body text sizes                =
+============================================= */
+/* =============================================
+=           Heading text sizes                =
+============================================= */
+/* =============================================
+=           Head font weights                =
+============================================= */
+/* =============================================
+=          Mixins                =
+============================================= */
+/**
+ *
+ * Helpful reusable function-like things that will be used to implements styles for components
+ *
+ */
+.dse-width-none {
+  width: 0;
+}
+
+.dse-height-none {
+  height: 0;
+}
+
 .dse-width-xxxs {
   width: 0.25rem;
 }
@@ -584,6 +789,12 @@
 ============================================= */
 /* =============================================
 =           End of Breakpoints                =
+============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
 ============================================= */
 /* =============================================
 =            Spacing                      =

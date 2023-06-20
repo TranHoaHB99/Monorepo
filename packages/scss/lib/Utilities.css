@@ -55,6 +55,12 @@
 /* =============================================
 =           End of Spacing                =
 ============================================= */
+/* =============================================
+=            Spacing                      =
+============================================= */
+/* =============================================
+=           End of Spacing                =
+============================================= */
 /**
  *
  * This file defines the actual colors that will be used for styling. They will default to the page 
@@ -89,6 +95,14 @@
  * Helpful reusable function-like things that will be used to implements styles for components
  *
  */
+.dse-width-none {
+  width: 0;
+}
+
+.dse-height-none {
+  height: 0;
+}
+
 .dse-width-xxxs {
   width: 0.25rem;
 }
